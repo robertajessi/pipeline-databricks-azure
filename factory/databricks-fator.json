@@ -1,0 +1,9 @@
+{
+	"name": "databricks-fator",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "982861f4-8c02-4df8-a2ef-8f1b008ed05f",
+		"tenantId": "47353336-61c5-4b22-85e4-f25a6eac5fd1"
+	}
+}
