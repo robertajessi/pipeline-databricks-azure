@@ -1,0 +1,25 @@
+{
+	"name": "pipeline_trigger",
+	"properties": {
+		"description": "para disparar o pipeline criado",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "datalake-ingestion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2024-01-26T15:33:00",
+				"timeZone": "E. South America Standard Time"
+			}
+		}
+	}
+}
