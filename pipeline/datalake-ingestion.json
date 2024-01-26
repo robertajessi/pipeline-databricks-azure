@@ -1,0 +1,7 @@
+{
+	"name": "datalake-ingestion",
+	"properties": {
+		"description": "criar pipeline para ingestão e transformações dos dados do Data Lake.",
+		"annotations": []
+	}
+}
